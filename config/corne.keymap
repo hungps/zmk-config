@@ -9,6 +9,34 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        select-all {
+            bindings = <&kp LG(A)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <25 26>;
+            layers = <0>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
