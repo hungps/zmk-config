@@ -298,3 +298,4 @@ parse_config:
     LG(X): $$mdi:content-cut$$
     LG(C): $$mdi:content-copy$$
     LG(V): $$mdi:content-paste$$
+    LC(LG(Q)): $$mdi:monitor-lock$$
