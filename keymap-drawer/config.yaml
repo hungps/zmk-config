@@ -6,7 +6,7 @@ draw_config:
   combo_h: 26.0
   key_rx: 6.0
   key_ry: 6.0
-  dark_mode: auto
+  dark_mode: true
   n_columns: 1
   separate_combo_diagrams: false
   combo_diagrams_scale: 2
@@ -28,7 +28,6 @@ draw_config:
     rel_h: 12
     rx: 4
     ry: 4
-  svg_extra_style: ''
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true
@@ -36,6 +35,12 @@ draw_config:
   glyph_hold_size: 12
   glyph_shifted_size: 10
   glyphs: {}
+  svg_extra_style: |
+    .trans,
+    .none,
+    .ghost {
+      opacity: 0.4;
+    }
 parse_config:
   sticky_label: OSM
   toggle_label: TG
@@ -54,7 +59,7 @@ parse_config:
 
     # Empty
     "&none":
-      type: ghost
+      type: trans
 
     # Whitespace
     "&bkspc_del":
@@ -95,17 +100,33 @@ parse_config:
       hold: $$mdi:progress-download$$
 
     # Mouse
-    "&mmv MOVE_LEFT": $$mdi:arrow-left-bold-outline$$
-    "&mmv MOVE_DOWN": $$mdi:arrow-down-bold-outline$$
-    "&mmv MOVE_UP": $$mdi:arrow-up-bold-outline$$
-    "&mmv MOVE_RIGHT": $$mdi:arrow-right-bold-outline$$
+    "&mmv MOVE_LEFT":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-left-bold-outline$$
+    "&mmv MOVE_DOWN":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-down-bold-outline$$
+    "&mmv MOVE_UP":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-up-bold-outline$$
+    "&mmv MOVE_RIGHT":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-right-bold-outline$$
     "&mkp LCLK": $$mdi:mouse-left-click$$
     "&mkp RCLK": $$mdi:mouse-right-click$$
     "&mkp MCLK": $$mdi:mouse-scroll-wheel$$
-    "&msc SCRL_LEFT": $$mdi:arrow-left-bold-circle-outline$$
-    "&msc SCRL_DOWN": $$mdi:arrow-down-bold-circle-outline$$
-    "&msc SCRL_UP": $$mdi:arrow-up-bold-circle-outline$$
-    "&msc SCRL_RIGHT": $$mdi:arrow-right-bold-circle-outline$$
+    "&msc SCRL_LEFT":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:arrow-left-bold-circle-outline$$
+    "&msc SCRL_DOWN":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:arrow-down-bold-circle-outline$$
+    "&msc SCRL_UP":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:arrow-up-bold-circle-outline$$
+    "&msc SCRL_RIGHT": 
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:arrow-right-bold-circle-outline$$
 
   # ZMK
   zmk_keycode_map:
@@ -272,7 +293,7 @@ parse_config:
       tap: $$mdi:remote-desktop$$
       hold: $$mdi:arrow-right-bold$$
     LC(UP): $$mdi:view-dashboard$$
-    LC(SPACE): $$mdi:console-line$$
+    LG(SPACE): $$mdi:console-line$$
     LG(A): $$mdi:check-all$$
     LG(X): $$mdi:content-cut$$
     LG(C): $$mdi:content-copy$$
