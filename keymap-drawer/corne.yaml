@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   sys:
   - {type: trans}
-  - $$mdi:power-sleep$$
+  - Ctl+Gui+Q
   - {type: trans}
   - {type: trans}
   - {type: trans}
