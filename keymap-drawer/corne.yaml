@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   sys:
   - {type: trans}
-  - Ctl+Gui+Q
+  - $$mdi:monitor-lock$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
