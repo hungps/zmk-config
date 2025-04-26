@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - ''
+  - {type: ghost}
   - Q
   - W
   - F
@@ -12,8 +12,8 @@ layers:
   - U
   - Y
   - ''''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - A
   - R
   - S
@@ -24,8 +24,8 @@ layers:
   - E
   - I
   - O
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - Z
   - X
   - C
@@ -36,93 +36,93 @@ layers:
   - ','
   - .
   - ;
-  - ''
-  - {t: ESC, h: nav}
-  - {t: SPACE, h: num}
-  - {t: TAB, h: LSHIFT}
-  - RET
-  - {t: BACKSPACE, h: sym}
-  - {t: DELETE, h: sys}
+  - {type: ghost}
+  - {t: '$$mdi:location-exit$$', h: nav}
+  - {t: '$$mdi:keyboard-space$$', h: num}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', h: sym}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: sys}
   nav:
-  - ''
-  - Gui+Sft+4
-  - Gui+Sft+5
-  - VOLUME DOWN
-  - VOLUME UP
-  - MUTE
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
-  - ''
-  - ''
-  - ''
-  - {t: RCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHIFT, h: sticky}
-  - {t: Meh+LGUI, h: sticky}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - Ctl+UP
-  - ''
-  - ''
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - PREVIOUS
-  - NEXT
-  - PLAY PAUSE
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
-  - Gui+SPACE
-  - ''
+  - {type: ghost}
+  - $$mdi:image$$
+  - $$mdi:record-rec$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-left-bold-circle-outline$$
+  - $$mdi:arrow-down-bold-circle-outline$$
+  - $$mdi:arrow-up-bold-circle-outline$$
+  - $$mdi:arrow-right-bold-circle-outline$$
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:star-four-points$$', h: OSM}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:view-dashboard$$
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-left-bold$$'}
+  - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-right-bold$$'}
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
+  - $$mdi:arrow-left-bold-outline$$
+  - $$mdi:arrow-down-bold-outline$$
+  - $$mdi:arrow-up-bold-outline$$
+  - $$mdi:arrow-right-bold-outline$$
+  - Gui+$$mdi:keyboard-space$$
+  - {type: ghost}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-scroll-wheel$$
   num:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - +
   - '7'
   - '8'
   - '9'
   - '*'
-  - ''
-  - ''
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: Meh+LGUI, h: sticky}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:star-four-points$$', h: OSM}
   - '-'
   - '4'
   - '5'
   - '6'
   - /
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
   - ','
   - '1'
   - '2'
   - '3'
   - '%'
-  - ''
+  - {type: ghost}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - .
   - '0'
   sym:
-  - ''
+  - {type: ghost}
   - <
   - '{'
   - '['
@@ -141,20 +141,20 @@ layers:
   - ']'
   - '}'
   - '>'
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - '&'
   - '|'
   - '!'
   - '?'
   - ':'
-  - {t: Sft+AltGr+Ctl+RGUI, h: sticky}
-  - {t: RSHFT, h: sticky}
-  - {t: RGUI, h: sticky}
-  - {t: RALT, h: sticky}
-  - {t: RCTRL, h: sticky}
-  - ''
-  - ''
+  - {t: '$$mdi:star-four-points$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {type: ghost}
+  - {type: ghost}
   - +
   - '-'
   - '*'
@@ -165,7 +165,7 @@ layers:
   - '@'
   - '#'
   - \
-  - ''
+  - {type: ghost}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,42 +173,42 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   sys:
-  - ''
-  - SLEEP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - CAPS
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: Sft+AltGr+Ctl+RGUI, h: sticky}
-  - {t: RSHFT, h: sticky}
-  - {t: RGUI, h: sticky}
-  - {t: RALT, h: sticky}
-  - {t: RCTRL, h: sticky}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - ''
+  - {type: ghost}
+  - $$mdi:power-sleep$$
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:apple-keyboard-caps$$
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:star-four-points$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {type: ghost}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,14 +217,14 @@ layers:
   - {type: held}
 combos:
 - p: [13, 14]
-  k: Gui+A
+  k: $$mdi:check-all$$
   l: [default]
 - p: [25, 26]
-  k: Gui+X
+  k: $$mdi:content-cut$$
   l: [default]
 - p: [26, 27]
-  k: Gui+C
+  k: $$mdi:content-copy$$
   l: [default]
 - p: [27, 28]
-  k: Gui+V
+  k: $$mdi:content-paste$$
   l: [default]
