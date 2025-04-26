@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - {type: ghost}
+  - {type: trans}
   - Q
   - W
   - F
@@ -12,8 +12,8 @@ layers:
   - U
   - Y
   - ''''
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - A
   - R
   - S
@@ -24,8 +24,8 @@ layers:
   - E
   - I
   - O
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - ;
-  - {type: ghost}
+  - {type: trans}
   - {t: '$$mdi:location-exit$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -44,19 +44,19 @@ layers:
   - {t: '$$mdi:backspace$$', h: sym}
   - {t: '$$mdi:backspace-reverse-outline$$', h: sys}
   nav:
-  - {type: ghost}
+  - {type: trans}
   - $$mdi:image$$
   - $$mdi:record-rec$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - $$mdi:arrow-left-bold-circle-outline$$
-  - $$mdi:arrow-down-bold-circle-outline$$
-  - $$mdi:arrow-up-bold-circle-outline$$
-  - $$mdi:arrow-right-bold-circle-outline$$
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-left-bold-circle-outline$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
+  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-right-bold-circle-outline$$'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
@@ -67,19 +67,19 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:view-dashboard$$
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-right-bold$$'}
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
-  - $$mdi:arrow-left-bold-outline$$
-  - $$mdi:arrow-down-bold-outline$$
-  - $$mdi:arrow-up-bold-outline$$
-  - $$mdi:arrow-right-bold-outline$$
-  - Gui+$$mdi:keyboard-space$$
-  - {type: ghost}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-bold-outline$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down-bold-outline$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up-bold-outline$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right-bold-outline$$'}
+  - $$mdi:console-line$$
+  - {type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,19 +87,19 @@ layers:
   - $$mdi:mouse-right-click$$
   - $$mdi:mouse-scroll-wheel$$
   num:
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - +
   - '7'
   - '8'
   - '9'
   - '*'
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
@@ -110,19 +110,19 @@ layers:
   - '5'
   - '6'
   - /
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - ','
   - '1'
   - '2'
   - '3'
   - '%'
-  - {type: ghost}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - .
   - '0'
   sym:
-  - {type: ghost}
+  - {type: trans}
   - <
   - '{'
   - '['
@@ -141,8 +141,8 @@ layers:
   - ']'
   - '}'
   - '>'
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - '&'
   - '|'
   - '!'
@@ -153,8 +153,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
   - +
   - '-'
   - '*'
@@ -165,7 +165,7 @@ layers:
   - '@'
   - '#'
   - \
-  - {type: ghost}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,42 +173,42 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   sys:
-  - {type: ghost}
+  - {type: trans}
   - $$mdi:power-sleep$$
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:star-four-points$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {type: ghost}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
