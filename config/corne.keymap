@@ -61,37 +61,37 @@
 
         nav {
             bindings = <
-&trans  &kp LG(LS(N4))  &kp LG(LS(N5))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &gresc                          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none          &trans
-&trans  &sk RCTRL       &sk LALT        &sk LGUI           &sk LSHIFT       &sk LS(LA(LC(LG(LEFT_GUI))))    &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LC(UP)     &trans
-&trans  &kp LC(LEFT)    &kp LC(RIGHT)   &kp C_PREVIOUS     &kp C_NEXT       &kp C_PLAY_PAUSE                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LG(SPACE)  &trans
-                                        &none              &trans           &trans                          &mkp LCLK       &mkp RCLK       &mkp MCLK
+&none  &kp LG(LS(N4))  &kp LG(LS(N5))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE                      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none          &none
+&none  &sk RCTRL       &sk LALT        &sk LGUI           &sk LSHIFT       &sk LS(LA(LC(LG(LEFT_GUI))))    &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LC(UP)     &none
+&none  &kp LC(LEFT)    &kp LC(RIGHT)   &kp C_PREVIOUS     &kp C_NEXT       &kp C_PLAY_PAUSE                &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LG(SPACE)  &none
+                                       &none              &trans           &trans                          &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
         num {
             bindings = <
-&trans  &none      &none     &none     &none      &none                           &kp PLUS   &kp N7   &kp N8  &kp N9  &kp ASTERISK  &trans
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &sk LS(LA(LC(LG(LEFT_GUI))))    &kp MINUS  &kp N4   &kp N5  &kp N6  &kp FSLH      &trans
-&trans  &none      &none     &none     &none      &none                           &kp COMMA  &kp N1   &kp N2  &kp N3  &kp PERCENT   &trans
-                             &trans    &none      &trans                          &kp EQUAL  &kp DOT  &kp N0
+&none  &none      &none     &none     &none      &none                           &kp PLUS   &kp N7   &kp N8  &kp N9  &kp ASTERISK  &none
+&none  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &sk LS(LA(LC(LG(LEFT_GUI))))    &kp MINUS  &kp N4   &kp N5  &kp N6  &kp FSLH      &none
+&none  &none      &none     &none     &none      &none                           &kp COMMA  &kp N1   &kp N2  &kp N3  &kp PERCENT   &none
+                            &trans    &none      &trans                          &kp EQUAL  &kp DOT  &kp N0
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp LESS_THAN  &kp LEFT_BRACE  &kp LBKT         &kp LEFT_PARENTHESIS  &kp GRAVE            &kp TILDE                 &kp RIGHT_PARENTHESIS  &kp RBKT  &kp RIGHT_BRACE  &kp GREATER_THAN  &trans
-&trans  &kp AMPERSAND  &kp PIPE        &kp EXCLAMATION  &kp QUESTION          &kp COLON            &sk LS(LA(LC(LG(RGUI))))  &sk RSHFT              &sk RGUI  &sk RALT         &sk RCTRL         &trans
-&trans  &kp PLUS       &kp MINUS       &kp ASTERISK     &kp FSLH              &kp PERCENT          &kp DOLLAR                &kp UNDER              &kp AT    &kp HASH         &kp BSLH          &trans
-                                       &trans           &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES    &trans                    &none                  &trans
+&none  &kp LESS_THAN  &kp LEFT_BRACE  &kp LBKT         &kp LEFT_PARENTHESIS  &kp GRAVE      &kp TILDE                 &kp RIGHT_PARENTHESIS  &kp RBKT  &kp RIGHT_BRACE  &kp GREATER_THAN  &none
+&none  &kp AMPERSAND  &kp PIPE        &kp EXCLAMATION  &kp QUESTION          &kp COLON      &sk LS(LA(LC(LG(RGUI))))  &sk RSHFT              &sk RGUI  &sk RALT         &sk RCTRL         &none
+&none  &kp PLUS       &kp MINUS       &kp ASTERISK     &kp FSLH              &kp PERCENT    &kp DOLLAR                &kp UNDER              &kp AT    &kp HASH         &kp BSLH          &none
+                                      &trans           &trans                &trans         &trans                    &none                  &trans
             >;
         };
 
         sys {
             bindings = <
-&trans  &kp C_SLEEP  &none  &none   &none   &none     &none                          &none         &none         &none         &none         &trans
-&trans  &kp CAPS     &none  &none   &none   &none     &sk RS(RA(RC(RG(RIGHT_GUI))))  &sk RSHFT     &sk RGUI      &sk RALT      &sk RCTRL     &trans
-&trans  &none        &none  &none   &none   &none     &bt BT_CLR                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-                            &trans  &trans  &trans    &trans                         &trans        &none
+&none  &kp C_SLEEP  &none  &none   &none   &none     &none                          &none         &none         &none         &none         &none
+&none  &kp CAPS     &none  &none   &none   &none     &sk RS(RA(RC(RG(RIGHT_GUI))))  &sk RSHFT     &sk RGUI      &sk RALT      &sk RCTRL     &none
+&none  &none        &none  &none   &none   &none     &bt BT_CLR                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
+                           &trans  &trans  &trans    &trans                         &trans        &none
             >;
         };
     };
