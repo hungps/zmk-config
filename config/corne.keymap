@@ -71,7 +71,7 @@
 
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home row mod (right hand) hand)";
+            label = "Home row mod (right hand)";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
