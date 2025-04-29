@@ -114,8 +114,8 @@
 
         nav {
             bindings = <
-&none  &kp LG(LS(N4))  &kp LG(LS(N5))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none          &none
-&none  &kp LCTRL       &kp LALT        &kp LGUI           &sk LSHIFT       &none               &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LC(UP)     &none
+&none  &kp LG(LS(N4))  &kp LG(LS(N5))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog 1         &none
+&none  &kp LCTRL       &kp LALT        &kp LGUI           &kp LSHIFT       &caps_word          &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LC(UP)     &none
 &none  &kp LC(LEFT)    &kp LC(RIGHT)   &kp C_PREVIOUS     &kp C_NEXT       &kp C_PLAY_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LG(SPACE)  &none
                                        &none              &trans           &trans              &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
