@@ -148,7 +148,7 @@ layers:
   - '!'
   - '?'
   - ':'
-  - '"'
+  - ^
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
