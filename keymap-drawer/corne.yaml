@@ -135,8 +135,8 @@ layers:
   - '{'
   - '['
   - (
-  - '`'
-  - '~'
+  - ^
+  - $
   - )
   - ']'
   - '}'
@@ -148,7 +148,7 @@ layers:
   - '!'
   - '?'
   - ':'
-  - ^
+  - '~'
   - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
@@ -160,7 +160,7 @@ layers:
   - '*'
   - /
   - '%'
-  - $
+  - '`'
   - _
   - '@'
   - '#'
