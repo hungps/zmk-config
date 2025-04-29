@@ -12,39 +12,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mt {
-    flavor = "balanced";
-    require-prior-idle-ms = <150>;
-    hold-trigger-on-release;
-    tapping-term-ms = <280>;
-    hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-    quick-tap-ms = <175>;
-};
-
-&mt {
-    flavor = "balanced";
-    require-prior-idle-ms = <150>;
-    hold-trigger-on-release;
-    tapping-term-ms = <280>;
-    hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
-    quick-tap-ms = <175>;
-};
-
 &sk {
-  release-after-ms = <900>;
-  quick-release;
+    release-after-ms = <900>;
+    quick-release;
 };
 
-&sl {
-  ignore-modifiers;
-};
+&sl { ignore-modifiers; };
 
 &lt {
-  flavor = "balanced";
-  tapping-term-ms = <200>;
-  quick-tap-ms = <175>;
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <175>;
 };
-
 
 / {
     combos {
@@ -75,6 +54,36 @@
         };
     };
 
+    behaviors {
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Home row mod (left hand)";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            hold-trigger-on-release;
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Home row mod (right hand) hand)";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -86,10 +95,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q        &kp W       &kp F       &kp P         &kp B      &kp J      &kp L            &kp U         &kp Y       &kp SINGLE_QUOTE  &none
-&none  &mt LCTRL A  &mt LALT R  &mt LGUI S  &mt LSHIFT T  &kp G      &kp M      &mt RSHIFT N     &mt RGUI E    &mt RALT I  &mt RCTRL O       &none
-&none  &kp Z        &kp X       &kp C       &kp D         &kp V      &kp K      &kp H            &kp COMMA     &kp DOT     &kp SEMI          &none
-                                &lt 1 ESC   &lt 2 SPACE   &kp TAB    &kp ENTER  &lt 3 BACKSPACE  &lt 4 DELETE
+&none  &kp Q         &kp W        &kp F        &kp P          &kp B      &kp J      &kp L            &kp U         &kp Y        &kp SINGLE_QUOTE  &none
+&none  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHIFT T  &kp G      &kp M      &hmr RSHIFT N    &hmr RGUI E   &hmr RALT I  &hmr RCTRL O      &none
+&none  &kp Z         &kp X        &kp C        &kp D          &kp V      &kp K      &kp H            &kp COMMA     &kp DOT      &kp SEMI          &none
+                                  &lt 1 ESC    &lt 2 SPACE    &kp TAB    &kp ENTER  &lt 3 BACKSPACE  &lt 4 DELETE
             >;
         };
 
