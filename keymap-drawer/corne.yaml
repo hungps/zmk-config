@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-right-bold-circle-outline$$'}
-  - {t: nav, h: TG}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - $$mdi:apple-keyboard-control$$
