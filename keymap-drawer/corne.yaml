@@ -18,8 +18,8 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - M
+  - {t: G, h: '$$mdi:star-four-points$$'}
+  - {t: M, h: '$$mdi:star-four-points$$'}
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
@@ -30,8 +30,8 @@ layers:
   - X
   - C
   - D
-  - V
-  - K
+  - {t: V, h: '$$mdi:triangle$$'}
+  - {t: K, h: '$$mdi:triangle$$'}
   - H
   - ','
   - .
@@ -57,11 +57,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
-  - {t: '$$mdi:star-four-points$$', h: OSM}
+  - {type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -100,11 +100,11 @@ layers:
   - '*'
   - {type: trans}
   - {type: trans}
-  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
-  - {t: '$$mdi:star-four-points$$', h: OSM}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: trans}
   - '-'
   - '4'
   - '5'
@@ -148,11 +148,11 @@ layers:
   - '!'
   - '?'
   - ':'
-  - {t: '$$mdi:star-four-points$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - '"'
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {type: trans}
   - {type: trans}
   - +
@@ -174,28 +174,11 @@ layers:
   - {t: ▽, type: trans}
   sys:
   - {type: trans}
-  - $$mdi:monitor-lock$$
+  - '&macos_sleep'
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:apple-keyboard-caps$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: '$$mdi:star-four-points$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
-  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -204,10 +187,27 @@ layers:
   - {type: trans}
   - {type: trans}
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: trans}
+  - {type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
