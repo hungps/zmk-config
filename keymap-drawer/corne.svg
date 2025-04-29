@@ -63,20 +63,8 @@
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
-<svg id="mdi:check-all">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-check-all" viewBox="0 0 24 24"><path d="M0.41,13.41L6,19L7.41,17.58L1.83,12M22.24,5.58L11.66,16.17L7.5,12L6.07,13.41L11.66,19L23.66,7M18,7L16.59,5.58L10.24,11.93L11.66,13.34L18,7Z" /></svg>
-</svg>
 <svg id="mdi:console-line">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-console-line" viewBox="0 0 24 24"><path d="M13,19V16H21V19H13M8.5,13L2.47,7H6.71L11.67,11.95C12.25,12.54 12.25,13.5 11.67,14.07L6.74,19H2.5L8.5,13Z" /></svg>
-</svg>
-<svg id="mdi:content-copy">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-copy" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z" /></svg>
-</svg>
-<svg id="mdi:content-cut">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-cut" viewBox="0 0 24 24"><path d="M19,3L13,9L15,11L22,4V3M12,12.5A0.5,0.5 0 0,1 11.5,12A0.5,0.5 0 0,1 12,11.5A0.5,0.5 0 0,1 12.5,12A0.5,0.5 0 0,1 12,12.5M6,20A2,2 0 0,1 4,18C4,16.89 4.9,16 6,16A2,2 0 0,1 8,18C8,19.11 7.1,20 6,20M6,8A2,2 0 0,1 4,6C4,4.89 4.9,4 6,4A2,2 0 0,1 8,6C8,7.11 7.1,8 6,8M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64Z" /></svg>
-</svg>
-<svg id="mdi:content-paste">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-paste" viewBox="0 0 24 24"><path d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z" /></svg>
 </svg>
 <svg id="mdi:image">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-image" viewBox="0 0 24 24"><path d="M8.5,13.5L11,16.5L14.5,12L19,18H5M21,19V5C21,3.89 20.1,3 19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19Z" /></svg>
@@ -467,22 +455,6 @@ path.combo { stroke: #7f7f7f; }
 <a href="#sys">
 <text x="0" y="24" class="key hold layer-activator">sys</text>
 </a></g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
-<use href="#mdi:check-all" xlink:href="#mdi:check-all" x="105" y="91" height="14" width="14.0" class="combo tap glyph mdi:check-all"/>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="105" y="147" height="14" width="14.0" class="combo tap glyph mdi:content-cut"/>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="161" y="136" height="14" width="14.0" class="combo tap glyph mdi:content-copy"/>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="217" y="136" height="14" width="14.0" class="combo tap glyph mdi:content-paste"/>
-</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-nav">
