@@ -33,9 +33,9 @@ layers:
   - {t: V, h: '$$mdi:triangle$$'}
   - {t: K, h: '$$mdi:triangle$$'}
   - H
-  - ','
-  - .
-  - ;
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - /
   - {type: trans}
   - {t: '$$mdi:location-exit$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: num}
@@ -61,7 +61,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:alpha-w-box$$
+  - {type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -215,3 +215,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+combos:
+- p: [13, 14]
+  k: $$mdi:check-all$$
+  l: [default]
+- p: [25, 26]
+  k: Gui+Z
+  l: [default]
+- p: [26, 27]
+  k: $$mdi:content-copy$$
+  l: [default]
+- p: [27, 28]
+  k: $$mdi:content-paste$$
+  l: [default]
+- p: [26, 28]
+  k: $$mdi:content-cut$$
+  l: [default]
