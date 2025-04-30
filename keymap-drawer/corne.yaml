@@ -231,3 +231,5 @@ combos:
 - p: [26, 28]
   k: $$mdi:content-cut$$
   l: [default]
+  a: bottom
+  o: 0.15
