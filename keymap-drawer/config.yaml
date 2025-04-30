@@ -158,7 +158,9 @@ parse_config:
     MINUS: "-"
     UNDERSCORE: _
     UNDER: _
-    SLASH: "/"
+    SLASH:
+      tap: "/"
+      shifted: "?"
     FSLH: "/"
     QUESTION: "?"
     QMARK: "?"
@@ -171,7 +173,9 @@ parse_config:
     SEMICOLON: ";"
     SEMI: ";"
     COLON: ":"
-    SINGLE_QUOTE: "'"
+    SINGLE_QUOTE:
+      tap: "'"
+      shifted: '"'
     SQT: "'"
     APOSTROPHE: <
     APOS: .
@@ -297,6 +301,7 @@ parse_config:
     LC(UP): $$mdi:view-dashboard$$
     LG(SPACE): $$mdi:console-line$$
     LG(A): $$mdi:check-all$$
+    LG(Z): $$mdi:undo-variant$$
     LG(X): $$mdi:content-cut$$
     LG(C): $$mdi:content-copy$$
     LG(V): $$mdi:content-paste$$
