@@ -305,3 +305,6 @@ parse_config:
     LG(X): $$mdi:content-cut$$
     LG(C): $$mdi:content-copy$$
     LG(V): $$mdi:content-paste$$
+
+  zmk_combos:
+    combo_cut: { align: bottom, o: 0.15 }
