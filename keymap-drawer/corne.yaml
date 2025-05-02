@@ -215,6 +215,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  gam:
+  - $$mdi:location-exit$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - $$mdi:arrow-up-bold$$
+  - I
+  - O
+  - {t: gam, h: TG}
+  - $$mdi:keyboard-tab$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - L
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - J
+  - K
+  - P
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:location-exit$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-command$$
 combos:
 - p: [13, 14]
   k: $$mdi:check-all$$
