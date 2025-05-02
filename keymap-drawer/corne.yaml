@@ -227,7 +227,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - I
   - O
-  - {t: gam, h: TG}
+  - {t: default, h: TG}
   - $$mdi:keyboard-tab$$
   - A
   - S
