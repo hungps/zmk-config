@@ -134,7 +134,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q         &kp W        &kp F        &kp P          &kp B                      &kp J                    &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &tog 5
+&none  &kp Q         &kp W        &kp F        &kp P          &kp B                      &kp J                    &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &to 5
 &none  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHIFT T  &hml LS(LA(LC(LGUI))) G    &hmr RS(RA(RC(RGUI))) M  &hmr RSHIFT N    &hmr RGUI E     &hmr RALT I    &hmr RCTRL O      &none
 &none  &kp Z         &kp X        &kp C        &kp D          &hml LS(LA(LCTRL)) V       &hmr RS(RA(RCTRL)) K     &kp H            &comma_to_semi  &dot_to_colon  &kp SLASH         &none
                                   &lt 1 ESC    &lt 2 SPACE    &kp TAB                    &kp ENTER                &lt 3 BACKSPACE  &lt 4 DELETE
@@ -179,7 +179,7 @@
 
         gam {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E    &kp R      &kp T      &kp Y      &kp U     &kp UP    &kp I      &kp O  &tog 5
+&kp ESC    &kp Q  &kp W  &kp E    &kp R      &kp T      &kp Y      &kp U     &kp UP    &kp I      &kp O  &to 0
 &kp TAB    &kp A  &kp S  &kp D    &kp F      &kp G      &kp H      &kp LEFT  &kp DOWN  &kp RIGHT  &kp L  &kp RALT
 &kp LSHFT  &kp Z  &kp X  &kp C    &kp V      &kp B      &kp N      &kp M     &kp J     &kp K      &kp P  &kp RCTRL
                          &kp ESC  &kp SPACE  &kp TAB    &kp ENTER  &kp BSPC  &kp RGUI
