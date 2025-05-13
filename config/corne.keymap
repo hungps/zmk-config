@@ -117,16 +117,37 @@
         macos_sleep: macos_sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LG(Q))>, <&macro_wait_time 500>, <&kp ESC>;
+            bindings = <&kp LC(LG(Q))>, <&macro_wait_time 1000>, <&kp ESC>;
 
             label = "MACOS_SLEEP";
+        };
+
+        arrow: arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp EQUAL &kp GT &kp SPACE>;
+            label = "ARROW";
+        };
+
+        logic_and: logic_and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp AMPS &kp AMPS &kp SPACE>;
+            label = "LOGIC_AND";
+        };
+
+        logic_or: logic_or {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp PIPE &kp PIPE &kp SPACE>;
+            label = "LOGIC_OR";
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        def {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -134,28 +155,28 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q         &kp W        &kp F        &kp P          &kp B                      &kp J                    &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &none
-&none  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHIFT T  &hml LS(LA(LC(LGUI))) G    &hmr RS(RA(RC(RGUI))) M  &hmr RSHIFT N    &hmr RGUI E     &hmr RALT I    &hmr RCTRL O      &none
-&none  &kp Z         &kp X        &kp C        &kp D          &hml LS(LA(LCTRL)) V       &hmr RS(RA(RCTRL)) K     &kp H            &comma_to_semi  &dot_to_colon  &kp SLASH         &none
-                                  &lt 1 ESC    &lt 2 SPACE    &kp TAB                    &kp ENTER                &lt 3 BACKSPACE  &lt 4 DELETE
+&none  &kp Q         &kp W        &kp F        &kp P          &kp B                            &kp J                     &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &none
+&none  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hml LSHIFT T  &kp G                            &kp M                     &hmr RSHIFT N    &hmr RGUI E     &hmr RALT I    &hmr RCTRL O      &none
+&none  &kp Z         &kp X        &kp C        &kp D          &kp V                            &kp K                     &kp H            &comma_to_semi  &dot_to_colon  &kp SLASH         &none
+                                  &lt 1 ESC    &lt 2 SPACE    &hml LS(LA(LC(LEFT_GUI))) TAB    &hmr LS(LA(LCTRL)) ENTER  &lt 3 BACKSPACE  &lt 4 DELETE
             >;
         };
 
         nav {
             bindings = <
-&none  &kp LG(LS(N4))  &kp LG(LS(N5))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none          &none
-&none  &kp LCTRL       &kp LALT        &kp LGUI           &kp LSHIFT       &none               &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LC(UP)     &none
-&none  &kp LC(LEFT)    &kp LC(RIGHT)   &kp C_PREVIOUS     &kp C_NEXT       &kp C_PLAY_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LG(SPACE)  &none
-                                       &none              &trans           &trans              &mkp LCLK       &mkp RCLK       &mkp MCLK
+&none  &none              &none            &none           &none       &none               &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp LG(LS(N4))  &none
+&none  &kp LCTRL          &kp LALT         &kp LGUI        &kp LSHIFT  &none               &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp LG(LS(N5))  &none
+&none  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_NEXT  &kp C_PLAY_PAUSE    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp LG(SPACE)   &none
+                                           &none           &trans      &trans              &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
         num {
             bindings = <
-&none  &none      &none     &none     &none      &none     &kp PLUS   &kp N7   &kp N8  &kp N9  &kp ASTERISK  &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none     &kp MINUS  &kp N4   &kp N5  &kp N6  &kp FSLH      &none
-&none  &none      &none     &none     &none      &none     &kp COMMA  &kp N1   &kp N2  &kp N3  &kp PERCENT   &none
-                            &trans    &none      &trans    &kp EQUAL  &kp DOT  &kp N0
+&none  &kp LA(T)  &kp LA(B)  &kp LA(P)  &kp LA(M)  &none     &kp PLUS   &kp N7   &kp N8  &kp N9  &kp ASTERISK  &none
+&none  &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &none     &kp MINUS  &kp N4   &kp N5  &kp N6  &kp FSLH      &none
+&none  &none      &none      &none      &none      &none     &kp COMMA  &kp N1   &kp N2  &kp N3  &kp PERCENT   &none
+                             &trans     &none      &trans    &kp EQUAL  &kp DOT  &kp N0
             >;
         };
 
@@ -164,7 +185,7 @@
 &none  &kp LESS_THAN  &kp LEFT_BRACE  &kp LBKT         &kp LEFT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp RIGHT_BRACE  &kp GREATER_THAN  &none
 &none  &kp AMPERSAND  &kp PIPE        &kp EXCLAMATION  &kp QUESTION          &kp COLON      &kp TILDE   &kp RSHFT              &kp RGUI  &kp RALT         &kp RCTRL         &none
 &none  &kp PLUS       &kp MINUS       &kp ASTERISK     &kp SLASH             &kp PERCENT    &kp GRAVE   &kp UNDER              &kp AT    &kp HASH         &kp BSLH          &none
-                                      &trans           &trans                &trans         &trans      &none                  &trans
+                                      &logic_or        &logic_and            &arrow         &trans      &none                  &trans
             >;
         };
 
