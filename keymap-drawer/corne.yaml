@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default:
+  def:
   - {type: trans}
   - Q
   - W
@@ -18,8 +18,8 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: '$$mdi:star-four-points$$'}
-  - {t: M, h: '$$mdi:star-four-points$$'}
+  - G
+  - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
@@ -30,8 +30,8 @@ layers:
   - X
   - C
   - D
-  - {t: V, h: '$$mdi:triangle$$'}
-  - {t: K, h: '$$mdi:triangle$$'}
+  - V
+  - K
   - H
   - {t: ',', s: ;}
   - {t: ., s: ':'}
@@ -39,22 +39,22 @@ layers:
   - {type: trans}
   - {t: '$$mdi:location-exit$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: num}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-tab$$', h: Meh+LEFT GUI}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:triangle$$'}
   - {t: '$$mdi:backspace$$', h: sym}
   - {t: '$$mdi:backspace-reverse-outline$$', h: sys}
   nav:
   - {type: trans}
-  - $$mdi:image$$
-  - $$mdi:record-rec$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-left-bold-circle-outline$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-right-bold-circle-outline$$'}
-  - {type: trans}
+  - $$mdi:image$$
   - {type: trans}
   - {type: trans}
   - $$mdi:apple-keyboard-control$$
@@ -66,11 +66,11 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:view-dashboard$$
+  - $$mdi:record-rec$$
   - {type: trans}
   - {type: trans}
-  - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-left-bold$$'}
-  - {t: '$$mdi:remote-desktop$$', h: '$$mdi:arrow-right-bold$$'}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
@@ -88,10 +88,10 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   num:
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - Alt+T
+  - Alt+B
+  - Alt+P
+  - Alt+M
   - {type: trans}
   - +
   - '7'
@@ -166,9 +166,9 @@ layers:
   - '#'
   - \
   - {type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&logic_or'
+  - '&logic_and'
+  - '&arrow'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -218,18 +218,18 @@ layers:
 combos:
 - p: [13, 14]
   k: $$mdi:check-all$$
-  l: [default]
+  l: [def]
 - p: [25, 26]
   k: $$mdi:undo-variant$$
-  l: [default]
+  l: [def]
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: [default]
+  l: [def]
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: [default]
+  l: [def]
 - p: [26, 28]
   k: $$mdi:content-cut$$
-  l: [default]
+  l: [def]
   a: bottom
   o: 0.15
