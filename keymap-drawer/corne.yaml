@@ -277,5 +277,5 @@ combos:
   a: bottom
   o: 0.15
 - p: [16, 19]
-  k: $$mdi:alpha-w-box$$
+  k: $$mdi:apple-keyboard-shift$$
   l: [def]
