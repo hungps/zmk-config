@@ -39,8 +39,8 @@ layers:
   - {type: trans}
   - {t: '$$mdi:location-exit$$', h: nav}
   - {t: '$$mdi:keyboard-space$$', h: num}
-  - {t: '$$mdi:keyboard-tab$$', h: Meh+LEFT GUI}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:triangle$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: sym}
   - {t: '$$mdi:backspace-reverse-outline$$', h: sys}
   nav:
@@ -57,10 +57,10 @@ layers:
   - $$mdi:image$$
   - {type: trans}
   - {type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
   - {type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -88,10 +88,10 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   num:
   - {type: trans}
-  - Alt+T
-  - Alt+B
-  - Alt+P
-  - Alt+M
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - +
   - '7'
@@ -100,10 +100,10 @@ layers:
   - '*'
   - {type: trans}
   - {type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
   - {type: trans}
   - '-'
   - '4'
@@ -149,10 +149,10 @@ layers:
   - '?'
   - ':'
   - '~'
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
   - {type: trans}
   - {type: trans}
   - +
@@ -166,12 +166,55 @@ layers:
   - '#'
   - \
   - {type: trans}
-  - '&logic_or'
-  - '&logic_and'
-  - '&arrow'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
+  - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: trans}
   sys:
   - {type: trans}
   - $$mdi:power-sleep$$
@@ -192,10 +235,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
@@ -210,10 +253,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {t: ▽, type: trans}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
   - {type: held}
 combos:
 - p: [13, 14]
