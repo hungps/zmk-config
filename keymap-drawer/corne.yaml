@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:power-sleep$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,7 +217,7 @@ layers:
   - {type: held}
   sys:
   - {type: trans}
-  - $$mdi:power-sleep$$
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -276,3 +276,6 @@ combos:
   l: [def]
   a: bottom
   o: 0.15
+- p: [16, 19]
+  k: $$mdi:alpha-w-box$$
+  l: [def]
