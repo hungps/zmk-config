@@ -129,6 +129,7 @@ parse_config:
       hold: $$mdi:arrow-right-bold-circle-outline$$
 
     "&macos_sleep": $$mdi:power-sleep$$
+    "&caps_word": $$mdi:apple-keyboard-shift$$
 
   # ZMK
   zmk_keycode_map:
