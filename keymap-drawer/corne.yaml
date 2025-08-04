@@ -64,7 +64,7 @@ layers:
   - G
   - H
   - J
-  - UP ARROW
+  - $$mdi:arrow-up-bold$$
   - L
   - K
   - {t: ▽, type: trans}
@@ -75,9 +75,9 @@ layers:
   - V
   - B
   - M
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: OSM}
-  - {t: RCMD, h: OSM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-option$$', h: OSM}
   - {t: '$$mdi:apple-keyboard-control$$', h: OSM}
   - {type: trans}
