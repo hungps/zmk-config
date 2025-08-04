@@ -264,3 +264,4 @@ combos:
   l: [def]
 - p: [37, 40]
   k: {t: gam, h: TG}
+  l: [def, gam]
