@@ -178,7 +178,7 @@
         def {
             bindings = <
 &trans  &kp Q         &kp W        &kp F        &kp P           &kp B             &kp J      &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &trans
-&trans  &hml LCTRL A  &hml R LALT  &hml S LGUI  &hmls T LSHIFT  &kp G             &kp M      &hmrs N RSHIFT   &hmr E RGUI     &hmr I RALT    &hmr O RCTRL      &trans
+&trans  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hmls LSHIFT T  &kp G             &kp M      &hmrs RSHFT N    &hmr RGUI E     &hmr RALT I    &hmr RCTRL O      &trans
 &trans  &kp Z         &kp X        &kp C        &kp D           &kp V             &kp K      &kp H            &comma_to_semi  &dot_to_colon  &kp SLASH         &trans
                                    &lt 2 ESC    &lt 3 SPACE     &mt LSHIFT TAB    &kp ENTER  &lt 4 BACKSPACE  &mo_repeat 5 0
             >;
