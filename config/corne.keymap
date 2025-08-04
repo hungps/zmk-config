@@ -38,6 +38,7 @@
         toggle_gam {
             bindings = <&tog 1>;
             key-positions = <37 40>;
+            layers = <0 1>;
         };
     };
 
