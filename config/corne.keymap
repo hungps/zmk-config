@@ -29,37 +29,188 @@
     combos {
         compatible = "zmk,combos";
 
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <26 27>;
-            require-prior-idle-ms = <150>;
-            layers = <0>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <27 28>;
-            require-prior-idle-ms = <150>;
-            layers = <0>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <26 28>;
-            require-prior-idle-ms = <150>;
-            layers = <0>;
-        };
-
         capsword {
             bindings = <&caps_word>;
             key-positions = <16 19>;
             layers = <0>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
 
         toggle_gam {
             bindings = <&tog 1>;
             key-positions = <37 40>;
             layers = <0 1>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+        };
+
+        lpar_lt {
+            bindings = <&lpar_lt>;
+            key-positions = <19 20>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        rpar_gt {
+            bindings = <&rpar_gt>;
+            key-positions = <20 21>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        lbkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        rbkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        and_or {
+            bindings = <&and_or>;
+            key-positions = <18 19>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        start_end {
+            bindings = <&start_end>;
+            key-positions = <6 7>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        minus_under {
+            bindings = <&minus_under>;
+            key-positions = <30 31>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <2 3>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <14 15>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <3 4>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <15 16>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        grave_percent {
+            bindings = <&grave_percent>;
+            key-positions = <4 5>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <28 29>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <6 7>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <21 22>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        hash_bslash {
+            bindings = <&hash_bslash>;
+            key-positions = <33 34>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 7>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
         };
     };
 
@@ -180,14 +331,66 @@
             #binding-cells = <0>;
             bindings = <&kp LG(C)>, <&kp LG(X)>;
         };
+
+        start_end: start_end {
+            compatible = "zmk,behavior-mod-morph";
+            label = "START_END";
+            bindings = <&kp CARET>, <&kp DOLLAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        minus_under: minus_under {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MINUS_UNDER";
+            bindings = <&kp MINUS>, <&kp UNDER>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        and_or: and_or {
+            compatible = "zmk,behavior-mod-morph";
+            label = "AND_OR";
+            bindings = <&kp AMPERSAND>, <&kp PIPE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        quote: quote {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUOTE";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+        };
+
+        hash_bslash: hash_bslash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HASH_BSLASH";
+            bindings = <&kp HASH>, <&kp BACKSLASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        grave_percent: grave_percent {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRAVE_PERCENT";
+            bindings = <&kp GRAVE>, <&kp PERCENT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
-        leader_sft: leader_sft {
+        arrow: arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LSHIFT>;
-            label = "LEADER_SFT";
+            bindings = <&kp EQUAL &kp GT>;
+            label = "ARROW";
         };
     };
 
