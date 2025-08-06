@@ -54,6 +54,9 @@
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
+<svg id="mdi:content-paste">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-paste" viewBox="0 0 24 24"><path d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z" /></svg>
+</svg>
 <svg id="mdi:keyboard-return">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
 </svg>
@@ -86,6 +89,9 @@
 </svg>
 <svg id="mdi:skip-previous">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
+</svg>
+<svg id="mdi:undo-variant">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-undo-variant" viewBox="0 0 24 24"><path d="M13.5,7A6.5,6.5 0 0,1 20,13.5A6.5,6.5 0 0,1 13.5,20H10V18H13.5C16,18 18,16 18,13.5C18,11 16,9 13.5,9H7.83L10.91,12.09L9.5,13.5L4,8L9.5,2.5L10.92,3.91L7.83,7H13.5M6,18H8V20H6V18Z" /></svg>
 </svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
@@ -514,7 +520,6 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
 <text x="728" y="154" class="combo tap">#</text>
-<text x="728" y="143" class="combo shifted">\</text>
 </g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
@@ -531,6 +536,22 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-22">
 <rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="105" y="91" height="14" width="14.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<use href="#mdi:undo-variant" xlink:href="#mdi:undo-variant" x="105" y="147" height="14" width="14.0" class="combo tap glyph mdi:undo-variant"/>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap"><tspan style="font-size: 78%">&amp;copy_cut</tspan></text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="217" y="136" height="14" width="14.0" class="combo tap glyph mdi:content-paste"/>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap">\</text>
 </g>
 </g>
 </g>

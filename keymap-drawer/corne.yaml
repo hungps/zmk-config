@@ -314,7 +314,7 @@ combos:
   k: '@'
   l: [def]
 - p: [33, 34]
-  k: {t: '#', s: \}
+  k: '#'
   l: [def]
 - p: [1, 2]
   k: $$mdi:location-exit$$
@@ -327,4 +327,16 @@ combos:
   l: [def]
 - p: [13, 14]
   k: $$mdi:keyboard-tab$$
+  l: [def]
+- p: [25, 26]
+  k: $$mdi:undo-variant$$
+  l: [def]
+- p: [26, 27]
+  k: '&copy_cut'
+  l: [def]
+- p: [27, 28]
+  k: $$mdi:content-paste$$
+  l: [def]
+- p: [9, 10]
+  k: \
   l: [def]
