@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   sys:
   - {type: trans}
-  - '&macos_lock'
+  - Ctl+Gui+Q
   - {type: trans}
   - {type: trans}
   - {type: trans}
