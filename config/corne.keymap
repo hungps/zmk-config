@@ -176,6 +176,7 @@
         compatible = "zmk,keymap";
 
         def {
+            label = "def";
             bindings = <
 &trans  &kp Q         &kp W        &kp F        &kp P           &kp B             &kp J      &kp L            &kp U           &kp Y          &kp SINGLE_QUOTE  &trans
 &trans  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hmls LSHIFT T  &kp G             &kp M      &hmrs RSHFT N    &hmr RGUI E     &hmr RALT I    &hmr RCTRL O      &trans
@@ -185,6 +186,7 @@
         };
 
         gam {
+            label = "gam";
             bindings = <
 &trans  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y   &kp U     &kp I     &kp O      &kp P  &trans
 &trans  &kp A  &kp S  &kp D   &kp F   &kp G     &kp H   &kp J     &kp UP    &kp L      &kp K  &trans
@@ -194,6 +196,7 @@
         };
 
         nav {
+            label = "nav";
             bindings = <
 &trans  &none      &none     &none     &none       &none     &kp C_PREV      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &kp C_PLAY_PAUSE  &trans
 &trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHIFT  &none     &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT        &msc SCRL_UP      &trans
@@ -203,6 +206,7 @@
         };
 
         num {
+            label = "num";
             bindings = <
 &trans  &none      &none     &none     &none      &none     &kp PLUS   &kp N7   &kp N8  &kp N9  &kp ASTERISK  &trans
 &trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &none     &kp MINUS  &kp N4   &kp N5  &kp N6  &kp FSLH      &trans
@@ -212,6 +216,7 @@
         };
 
         sym {
+            label = "sym";
             bindings = <
 &trans  &kp LESS_THAN  &kp LEFT_BRACE  &kp LBKT         &kp LEFT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp RIGHT_BRACE  &kp GREATER_THAN  &trans
 &trans  &kp AMPERSAND  &kp PIPE        &kp EXCLAMATION  &kp QUESTION          &kp COLON      &kp TILDE   &sk RSHFT              &sk RGUI  &sk RALT         &sk RCTRL         &trans
@@ -221,6 +226,7 @@
         };
 
         sys {
+            label = "sys";
             bindings = <
 &none  &macos_sleep  &none         &none         &none         &none           &none   &none      &none     &none     &none      &none
 &none  &bt BT_CLR    &none         &none         &none         &none           &none   &sk RSHFT  &sk RGUI  &sk RALT  &sk RCTRL  &none
