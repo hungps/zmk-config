@@ -18,8 +18,8 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - M
+  - {t: G, h: 'Hyper+$$mdi:apple-keyboard-command$$'}
+  - {t: M, h: 'Sft+AltGr+Ctl+Gui+$$mdi:apple-keyboard-command$$'}
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:location-exit$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
   nav:
   - {t: ▽, type: trans}
@@ -278,3 +278,5 @@ combos:
   k: $$mdi:content-cut$$
   a: bottom
   o: 0.15
+- p: [36, 41]
+  k: {t: sys, h: OSM}
