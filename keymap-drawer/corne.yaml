@@ -252,11 +252,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ▽, type: trans}
   - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
 combos:
 - p: [16, 19]
@@ -280,3 +280,27 @@ combos:
   o: 0.15
 - p: [36, 41]
   k: {t: sys, h: OSM}
+- p: [24, 18]
+  k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-bold-outline$$'}
+  l: [nav]
+- p: [24, 19]
+  k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down-bold-outline$$'}
+  l: [nav]
+- p: [24, 20]
+  k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up-bold-outline$$'}
+  l: [nav]
+- p: [24, 21]
+  k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right-bold-outline$$'}
+  l: [nav]
+- p: [25, 18]
+  k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-left-bold-circle-outline$$'}
+  l: [nav]
+- p: [25, 19]
+  k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
+  l: [nav]
+- p: [25, 20]
+  k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
+  l: [nav]
+- p: [25, 21]
+  k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-right-bold-circle-outline$$'}
+  l: [nav]

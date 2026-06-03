@@ -24,11 +24,17 @@
 <svg id="mdi:arrow-left-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
+<svg id="mdi:arrow-left-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold-circle-outline" viewBox="0 0 24 24"><path d="M7,12L12,7V10H16V14H12V17L7,12M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12Z" /></svg>
+</svg>
 <svg id="mdi:arrow-left-bold-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold-outline" viewBox="0 0 24 24"><path d="M13,22L3,12L13,2V8H21V16H13V22M6,12L11,17V14H19V10H11V7L6,12Z" /></svg>
 </svg>
 <svg id="mdi:arrow-right-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-right-bold-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold-circle-outline" viewBox="0 0 24 24"><path d="M17,12L12,17V14H8V10H12V7L17,12M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12Z" /></svg>
 </svg>
 <svg id="mdi:arrow-right-bold-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold-outline" viewBox="0 0 24 24"><path d="M11,16H3V8H11V2L21,12L11,22V16M13,7V10H5V14H13V17L18,12L13,7Z" /></svg>
@@ -860,6 +866,62 @@ path.combo { stroke: #7f7f7f; }
 <text x="420" y="205" class="combo tap layer-activator">sys</text>
 </a><text x="420" y="216" class="combo hold">OSM</text>
 </g>
+<g class="combo combopos-2">
+<path d="M280,130 l-233,29" class="combo"/>
+<path d="M280,130 l233,-29" class="combo"/>
+<rect rx="6" ry="6" x="266" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="273" y="122" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-left-bold-outline" xlink:href="#mdi:arrow-left-bold-outline" x="274" y="128" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-outline"/>
+</g>
+<g class="combo combopos-3">
+<path d="M308,126 l-261,33" class="combo"/>
+<path d="M308,126 l261,-33" class="combo"/>
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="301" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-down-bold-outline" xlink:href="#mdi:arrow-down-bold-outline" x="302" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-outline"/>
+</g>
+<g class="combo combopos-4">
+<path d="M336,122 l-289,36" class="combo"/>
+<path d="M336,122 l289,-36" class="combo"/>
+<rect rx="6" ry="6" x="322" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="329" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-up-bold-outline" xlink:href="#mdi:arrow-up-bold-outline" x="330" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-outline"/>
+</g>
+<g class="combo combopos-5">
+<path d="M364,126 l-317,33" class="combo"/>
+<path d="M364,126 l317,-33" class="combo"/>
+<rect rx="6" ry="6" x="350" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="357" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-right-bold-outline" xlink:href="#mdi:arrow-right-bold-outline" x="358" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-outline"/>
+</g>
+<g class="combo combopos-6">
+<path d="M308,130 l-206,29" class="combo"/>
+<path d="M308,130 l206,-29" class="combo"/>
+<rect rx="6" ry="6" x="294" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="301" y="122" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-left-bold-circle-outline" xlink:href="#mdi:arrow-left-bold-circle-outline" x="302" y="128" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-circle-outline"/>
+</g>
+<g class="combo combopos-7">
+<path d="M336,126 l-234,32" class="combo"/>
+<path d="M336,126 l234,-32" class="combo"/>
+<rect rx="6" ry="6" x="322" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="329" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-down-bold-circle-outline" xlink:href="#mdi:arrow-down-bold-circle-outline" x="330" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-circle-outline"/>
+</g>
+<g class="combo combopos-8">
+<path d="M364,122 l-262,36" class="combo"/>
+<path d="M364,122 l262,-36" class="combo"/>
+<rect rx="6" ry="6" x="350" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="357" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-up-bold-circle-outline" xlink:href="#mdi:arrow-up-bold-circle-outline" x="358" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-circle-outline"/>
+</g>
+<g class="combo combopos-9">
+<path d="M392,126 l-289,33" class="combo"/>
+<path d="M392,126 l289,-33" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="385" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-right-bold-circle-outline" xlink:href="#mdi:arrow-right-bold-circle-outline" x="386" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-circle-outline"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-num">
@@ -1367,10 +1429,10 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(224, 205)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans"/>
@@ -1382,6 +1444,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(616, 205)" class="key held keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
