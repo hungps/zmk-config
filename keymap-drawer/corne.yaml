@@ -276,10 +276,12 @@ combos:
   l: [def]
 - p: [26, 28]
   k: $$mdi:content-cut$$
+  l: [def]
   a: bottom
   o: 0.15
 - p: [36, 41]
   k: {t: sys, h: OSM}
+  l: [def]
 - p: [24, 18]
   k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-bold-outline$$'}
   l: [nav]
