@@ -282,27 +282,27 @@ combos:
 - p: [36, 41]
   k: {t: sys, h: OSM}
   l: [def]
-- p: [24, 18]
+- p: [18, 25]
   k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-bold-outline$$'}
   l: [nav]
-- p: [24, 19]
+- p: [19, 25]
   k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down-bold-outline$$'}
   l: [nav]
-- p: [24, 20]
+- p: [20, 25]
   k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up-bold-outline$$'}
   l: [nav]
-- p: [24, 21]
+- p: [21, 25]
   k: {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right-bold-outline$$'}
   l: [nav]
-- p: [25, 18]
+- p: [18, 26]
   k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-left-bold-circle-outline$$'}
   l: [nav]
-- p: [25, 19]
+- p: [19, 26]
   k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
   l: [nav]
-- p: [25, 20]
+- p: [20, 26]
   k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
   l: [nav]
-- p: [25, 21]
+- p: [21, 26]
   k: {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-right-bold-circle-outline$$'}
   l: [nav]

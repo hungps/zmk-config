@@ -839,60 +839,60 @@ path.combo { stroke: #7f7f7f; }
 <use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:mouse-scroll-wheel"/>
 </g>
 <g class="combo combopos-0">
-<path d="M280,130 l-233,29" class="combo"/>
-<path d="M280,130 l233,-29" class="combo"/>
-<rect rx="6" ry="6" x="266" y="116" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="273" y="122" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-left-bold-outline" xlink:href="#mdi:arrow-left-bold-outline" x="274" y="128" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-outline"/>
+<path d="M308,130 l206,-29" class="combo"/>
+<path d="M308,130 l-206,29" class="combo"/>
+<rect rx="6" ry="6" x="294" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="301" y="122" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-left-bold-outline" xlink:href="#mdi:arrow-left-bold-outline" x="302" y="128" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-outline"/>
 </g>
 <g class="combo combopos-1">
-<path d="M308,126 l-261,33" class="combo"/>
-<path d="M308,126 l261,-33" class="combo"/>
-<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="301" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-down-bold-outline" xlink:href="#mdi:arrow-down-bold-outline" x="302" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-outline"/>
+<path d="M336,126 l234,-32" class="combo"/>
+<path d="M336,126 l-234,32" class="combo"/>
+<rect rx="6" ry="6" x="322" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="329" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-down-bold-outline" xlink:href="#mdi:arrow-down-bold-outline" x="330" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M336,122 l-289,36" class="combo"/>
-<path d="M336,122 l289,-36" class="combo"/>
-<rect rx="6" ry="6" x="322" y="110" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="329" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-up-bold-outline" xlink:href="#mdi:arrow-up-bold-outline" x="330" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-outline"/>
+<path d="M364,122 l262,-36" class="combo"/>
+<path d="M364,122 l-262,36" class="combo"/>
+<rect rx="6" ry="6" x="350" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="357" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-up-bold-outline" xlink:href="#mdi:arrow-up-bold-outline" x="358" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-outline"/>
 </g>
 <g class="combo combopos-3">
-<path d="M364,126 l-317,33" class="combo"/>
-<path d="M364,126 l317,-33" class="combo"/>
-<rect rx="6" ry="6" x="350" y="113" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="357" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
-<use href="#mdi:arrow-right-bold-outline" xlink:href="#mdi:arrow-right-bold-outline" x="358" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-outline"/>
+<path d="M392,126 l289,-33" class="combo"/>
+<path d="M392,126 l-289,33" class="combo"/>
+<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="385" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse"/>
+<use href="#mdi:arrow-right-bold-outline" xlink:href="#mdi:arrow-right-bold-outline" x="386" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-outline"/>
 </g>
 <g class="combo combopos-4">
-<path d="M308,130 l-206,29" class="combo"/>
-<path d="M308,130 l206,-29" class="combo"/>
-<rect rx="6" ry="6" x="294" y="116" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="301" y="122" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
-<use href="#mdi:arrow-left-bold-circle-outline" xlink:href="#mdi:arrow-left-bold-circle-outline" x="302" y="128" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-circle-outline"/>
+<path d="M336,122 l177,-22" class="combo"/>
+<path d="M336,122 l-177,22" class="combo"/>
+<rect rx="6" ry="6" x="322" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="329" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-left-bold-circle-outline" xlink:href="#mdi:arrow-left-bold-circle-outline" x="330" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-left-bold-circle-outline"/>
 </g>
 <g class="combo combopos-5">
-<path d="M336,126 l-234,32" class="combo"/>
-<path d="M336,126 l234,-32" class="combo"/>
-<rect rx="6" ry="6" x="322" y="113" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="329" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
-<use href="#mdi:arrow-down-bold-circle-outline" xlink:href="#mdi:arrow-down-bold-circle-outline" x="330" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-circle-outline"/>
+<path d="M364,119 l205,-26" class="combo"/>
+<path d="M364,119 l-205,26" class="combo"/>
+<rect rx="6" ry="6" x="350" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="357" y="112" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-down-bold-circle-outline" xlink:href="#mdi:arrow-down-bold-circle-outline" x="358" y="118" height="12" width="12.0" class="combo hold glyph mdi:arrow-down-bold-circle-outline"/>
 </g>
 <g class="combo combopos-6">
-<path d="M364,122 l-262,36" class="combo"/>
-<path d="M364,122 l262,-36" class="combo"/>
-<rect rx="6" ry="6" x="350" y="110" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="357" y="116" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
-<use href="#mdi:arrow-up-bold-circle-outline" xlink:href="#mdi:arrow-up-bold-circle-outline" x="358" y="122" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-circle-outline"/>
+<path d="M392,116 l233,-29" class="combo"/>
+<path d="M392,116 l-233,29" class="combo"/>
+<rect rx="6" ry="6" x="378" y="102" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="385" y="108" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-up-bold-circle-outline" xlink:href="#mdi:arrow-up-bold-circle-outline" x="386" y="114" height="12" width="12.0" class="combo hold glyph mdi:arrow-up-bold-circle-outline"/>
 </g>
 <g class="combo combopos-7">
-<path d="M392,126 l-289,33" class="combo"/>
-<path d="M392,126 l289,-33" class="combo"/>
-<rect rx="6" ry="6" x="378" y="113" width="28" height="26" class="combo"/>
-<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="385" y="119" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
-<use href="#mdi:arrow-right-bold-circle-outline" xlink:href="#mdi:arrow-right-bold-circle-outline" x="386" y="125" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-circle-outline"/>
+<path d="M420,119 l261,-26" class="combo"/>
+<path d="M420,119 l-261,26" class="combo"/>
+<rect rx="6" ry="6" x="406" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="413" y="112" height="14" width="14.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+<use href="#mdi:arrow-right-bold-circle-outline" xlink:href="#mdi:arrow-right-bold-circle-outline" x="414" y="118" height="12" width="12.0" class="combo hold glyph mdi:arrow-right-bold-circle-outline"/>
 </g>
 </g>
 </g>
