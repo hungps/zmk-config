@@ -26,10 +26,10 @@ layers:
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Z, h: mouse}
-  - {t: X, h: scroll}
-  - C
-  - D
+  - Z
+  - X
+  - {t: C, h: scroll}
+  - {t: D, h: mouse}
   - V
   - K
   - H
@@ -109,7 +109,6 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-bold-circle-outline$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -117,11 +116,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-bold-outline$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down-bold-outline$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up-bold-outline$$'}
-  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right-bold-outline$$'}
-  - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-bold-circle-outline$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -155,10 +155,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,8 +199,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
