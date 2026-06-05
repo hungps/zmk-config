@@ -83,49 +83,49 @@
 
         mmv_left {
             bindings = <&mmv MOVE_LEFT>;
-            key-positions = <24 18>;
+            key-positions = <18 25>;
             layers = <2>;
         };
 
         mmv_down {
             bindings = <&mmv MOVE_DOWN>;
-            key-positions = <24 19>;
+            key-positions = <19 25>;
             layers = <2>;
         };
 
         mmv_up {
             bindings = <&mmv MOVE_UP>;
-            key-positions = <24 20>;
+            key-positions = <20 25>;
             layers = <2>;
         };
 
         mmv_right {
             bindings = <&mmv MOVE_RIGHT>;
-            key-positions = <24 21>;
+            key-positions = <21 25>;
             layers = <2>;
         };
 
         msc_left {
             bindings = <&msc SCRL_LEFT>;
-            key-positions = <25 18>;
+            key-positions = <18 26>;
             layers = <2>;
         };
 
         msc_down {
             bindings = <&msc SCRL_DOWN>;
-            key-positions = <25 19>;
+            key-positions = <19 26>;
             layers = <2>;
         };
 
         msc_up {
             bindings = <&msc SCRL_UP>;
-            key-positions = <25 20>;
+            key-positions = <20 26>;
             layers = <2>;
         };
 
         msc_right {
             bindings = <&msc SCRL_RIGHT>;
-            key-positions = <25 21>;
+            key-positions = <21 26>;
             layers = <2>;
         };
     };
