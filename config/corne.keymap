@@ -72,11 +72,13 @@
         cut {
             bindings = <&kp LG(X)>;
             key-positions = <26 28>;
+            layers = <0>;
         };
 
         toggle_sys {
             bindings = <&sl 5>;
             key-positions = <36 41>;
+            layers = <0>;
         };
 
         mmv_left {
