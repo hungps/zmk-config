@@ -68,12 +68,20 @@
             layers = <0>;
         };
 
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <26 28>;
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 27>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <24>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <28 26>;
+            timeout-ms = <24>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
         };
     };
 
@@ -172,7 +180,7 @@
             bindings = <
 &trans  &kp Q         &kp W        &kp F        &kp P           &kp B                          &kp J                        &kp L            &kp U           &kp Y        &kp SINGLE_QUOTE  &trans
 &trans  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hmls LSHIFT T  &hml LS(LA(LC(LG(LGUI)))) G    &hmr RS(RA(RC(RG(RGUI)))) M  &hmrs RSHFT N    &hmr RGUI E     &hmr RALT I  &hmr RCTRL O      &trans
-&trans  &kp Z         &kp X        &lt 4 C      &lt 3 D         &kp V                          &kp K                        &kp H            &comma_semi     &dot_colon   &kp SLASH         &trans
+&trans  &kp Z         &kp X        &lt 3 C      &lt 4 D         &kp V                          &kp K                        &kp H            &comma_semi     &dot_colon   &kp SLASH         &trans
                                    &lt 2 ESC    &lt 5 SPACE     &mt LSHIFT TAB                 &kp ENTER                    &lt 6 BACKSPACE  &mo_repeat 7 0
             >;
         };
@@ -193,7 +201,7 @@
 &trans  &trans     &trans    &trans    &trans      &trans                      &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &kp C_PLAY_PAUSE  &trans
 &trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHIFT  &sk LS(LA(LC(LG(LGUI))))    &kp LEFT    &kp DOWN           &kp UP           &kp RIGHT   &trans            &trans
 &trans  &trans     &trans    &trans    &trans      &trans                      &trans      &trans             &trans           &trans      &trans            &trans
-                             &none     &trans      &trans                      &mkp LCLK   &mkp RCLK          &mkp MCLK
+                             &none     &trans      &trans                      &trans      &trans             &trans
             >;
         };
 
@@ -201,7 +209,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans      &trans          &trans          &trans        &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &none   &trans  &trans  &trans    &trans      &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &none   &trans    &trans      &trans          &trans          &trans        &trans           &trans  &trans
                         &trans  &mkp MB4  &mkp MB5    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
@@ -210,7 +218,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans      &trans          &trans          &trans        &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &none   &trans  &trans    &trans      &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &none     &trans      &trans          &trans          &trans        &trans           &trans  &trans
                         &trans  &mkp MB4  &mkp MB5    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
