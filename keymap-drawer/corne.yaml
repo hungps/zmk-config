@@ -28,8 +28,8 @@ layers:
   - {t: ▽, type: trans}
   - Z
   - X
-  - {t: C, h: mouse}
-  - {t: D, h: scroll}
+  - C
+  - D
   - V
   - K
   - H
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,7 +201,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
