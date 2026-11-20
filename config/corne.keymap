@@ -180,7 +180,7 @@
             bindings = <
 &trans  &kp Q         &kp W        &kp F        &kp P           &kp B                          &kp J                        &kp L            &kp U           &kp Y        &kp SINGLE_QUOTE  &trans
 &trans  &hml LCTRL A  &hml LALT R  &hml LGUI S  &hmls LSHIFT T  &hml LS(LA(LC(LG(LGUI)))) G    &hmr RS(RA(RC(RG(RGUI)))) M  &hmrs RSHFT N    &hmr RGUI E     &hmr RALT I  &hmr RCTRL O      &trans
-&trans  &kp Z         &kp X        &lt 3 C      &lt 4 D         &kp V                          &kp K                        &kp H            &comma_semi     &dot_colon   &kp SLASH         &trans
+&trans  &kp Z         &kp X        &kp C        &kp D           &kp V                          &kp K                        &kp H            &comma_semi     &dot_colon   &kp SLASH         &trans
                                    &lt 2 ESC    &lt 5 SPACE     &mt LSHIFT TAB                 &kp ENTER                    &lt 6 BACKSPACE  &mo_repeat 7 0
             >;
         };
